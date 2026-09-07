@@ -130,8 +130,176 @@ public class Main {
 
         /*
 ----------------------------------------------------Exercício 7:--------------------------------------------------------
+            Comparação Simples
+        Crie um programa que leia dois números inteiros e exiba se o primeiro é maior, menor ou
+        igual ao segundo.
+
+
+        System.out.println("Digite o primeiro numero: ");
+        int num1 = scanner.nextInt();
+
+        System.out.println("Digite o segundo numero: ");
+        int num2 = scanner.nextInt();
+
+        if (num1 > num2) {
+            System.out.println("O primeiro número digitado é maior que o segundo.");
+        } else if (num1 < num2) {
+            System.out.println("O primeiro número digitado é menor que o segundo.");
+        } else {
+            System.out.println("Os dois números são iguais");
+        }
+         */
+
+        /*
+----------------------------------------------------Exercício 8:--------------------------------------------------------
+        Exercício 17: Verificação de Paridade
+        Escreva um programa que leia um número inteiro e exiba se ele é par ou ímpar.
+        Dica: Você pode utilizar a divisão de resto, com o operador %.
+
+
+        System.out.println("Digite o número: ");
+        int num = scanner.nextInt();
+        if (num % 2 == 0) {
+            System.out.println("O número é par");
+        } else {
+            System.out.println("O número é impar");
+        }
+         */
+
+        /*
+----------------------------------------------------Exercício 9:--------------------------------------------------------
+        Desenvolva um programa que leia três números inteiros e exiba o maior deles.
+
+        System.out.println("Digite o primeiro número: ");
+        int num1 = scanner.nextInt();
+
+        System.out.println("Digite o segundo número: ");
+        int num2 = scanner.nextInt();
+
+        System.out.println("Digite o terceiro número: ");
+        int num3 = scanner.nextInt();
+
+        int maior = num1;
+        if (num2 > maior) {
+            maior = num2;
+        }
+        if (num3 > maior) {
+            maior = num3;
+        }
+        System.out.println("O maior número é: " + maior);
 
          */
+
+        /*
+----------------------------------------------------Exercício 10:-------------------------------------------------------
+         Crie um programa que leia a idade de uma pessoa e verifique se ela é elegível para votar
+(idade igual ou superior a 18 anos)
+
+
+        System.out.println("Digite sua idade: ");
+        int idade = scanner.nextInt();
+
+        if (idade >= 18) {
+            System.out.println("Você pode votar");
+        } else {
+            System.out.println("Você não pode votar");
+        }
+        */
+
+        /*
+----------------------------------------------------Exercício 10:-------------------------------------------------------
+        Escreva um programa que leia um número inteiro e verifique se ele está entre 10 e 20
+         (inclusive). Exiba uma mensagem informando se o número está dentro ou fora do intervalo.
+
+
+        System.out.println("Digite um número entre 10 e 20: ");
+        int num = scanner.nextInt();
+
+        if (num >= 10 && num <= 20) {
+            System.out.println("O número está dentro do invervalo: " + num);
+        } else {
+            System.out.println("O número está fora do invervalo: " + num);
+        }
+        */
+
+        /*
+----------------------------------------------------Exercício 11:-------------------------------------------------------
+        Desenvolva um programa que leia duas strings do usuário e verifique se elas são iguais.
+        Exiba uma mensagem informando o resultado da comparação.
+
+
+        System.out.println("Digite a primeira string: ");
+        String string1 = scanner.next();
+
+        System.out.println("Digite a segunda string: ");
+        String string2 = scanner.next();
+
+        if (string1.equals(string2)) {
+            System.out.println("As strings são iguais");
+        } else {
+            System.out.println("As string não são iguais");
+        }
+        */
+
+        /*
+----------------------------------------------------Exercício 12:-------------------------------------------------------
+        Escreva um programa que leia a idade de três pessoas e verifique se pelo menos duas
+        delas são maiores de idade (18 anos ou mais).
+
+
+        System.out.println("Digite a primeira idade: ");
+        int idade1 = scanner.nextInt();
+
+        System.out.println("Digite a segunda idade: ");
+        int idade2 = scanner.nextInt();
+
+        System.out.println("Digite a terceira idade: ");
+        int idade3 = scanner.nextInt();
+
+        int maioridade = 0;
+
+        if (idade1 >= 18) maioridade++;
+        if (idade2 >= 18) maioridade++;
+        if (idade3 >= 18) maioridade++;
+
+        if (maioridade >= 2) {
+            System.out.println("Pelo menos 2 pessoas são maior de idade");
+        } else {
+            System.out.println("Menos de 2 pessoas são maiores de idade");
+        }
+
+        */
+
+        /*
+----------------------------------------------------Exercício 13:-------------------------------------------------------
+        Escreva um programa que leia três números inteiros e verifique se pelo menos dois deles
+        são positivos.
+
+
+        System.out.println("Digite o primeiro número: ");
+        int num1 = scanner.nextInt();
+
+        System.out.println("Digite o segundo número: ");
+        int num2 = scanner.nextInt();
+
+        System.out.println("Digite o terceiro número: ");
+        int num3 = scanner.nextInt();
+
+        int positivos = 0;
+
+        if (num1 > 0) positivos++;
+        if (num2 > 0) positivos++;
+        if (num3 > 0) positivos++;
+
+        if (positivos >2) {
+            System.out.println("Pelo menos 2 numeros são positivos");
+        } else {
+            System.out.println("Menos de 2 números são positivos");
+        }
+        */
+
+
+
 
 
 
