@@ -1,4 +1,4 @@
-package miniprojetosjava;
+package miniprojetosjava.minicalculadorasimples;
 import java.util.Scanner;
 
 public class CalculadoraSimples {
