@@ -320,6 +320,22 @@ public class Main {
         System.out.println("Soma acumulada: " + somaAcumulada);
         */
 
+        /*
+----------------------------------------------------Exercício 15:-------------------------------------------------------
+        Enunciado: Escreva um programa que leia um número inteiro e verifique se ele é positivo,
+        negativo ou zero. Exiba uma mensagem apropriada para cada caso
+         */
+        System.out.println("Digite um número");
+        int num = scanner.nextInt();
+
+        if (num == 0) {
+            System.out.println("O numero é 0");
+        } else if (num < 0) {
+            System.out.println("O numero é negativo");
+        } else {
+            System.out.println("O número é positivo");
+        }
+
 
 
         scanner.close();
