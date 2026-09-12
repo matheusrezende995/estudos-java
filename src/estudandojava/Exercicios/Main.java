@@ -324,7 +324,7 @@ public class Main {
 ----------------------------------------------------Exercício 15:-------------------------------------------------------
         Enunciado: Escreva um programa que leia um número inteiro e verifique se ele é positivo,
         negativo ou zero. Exiba uma mensagem apropriada para cada caso
-         */
+
         System.out.println("Digite um número");
         int num = scanner.nextInt();
 
@@ -335,8 +335,10 @@ public class Main {
         } else {
             System.out.println("O número é positivo");
         }
-
-
+        */
+        /*
+----------------------------------------------------Exercício 16:-------------------------------------------------------
+         */
 
         scanner.close();
     }
