@@ -43,7 +43,7 @@ public class Main {
             opcao = scanner.next();
 
         }
-        System.out.println("-------------------------------------------");
+        System.out.println("--------------------------------------------");
         System.out.println("O total geral é: " + totalGeral);
 
         if (totalGeral >= 200) {
